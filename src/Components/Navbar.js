@@ -40,7 +40,7 @@ function Navbar() {
           </a>
         </li>
         <li>
-          <a href="#product" className="navbar-links">
+          <a href="#optoviki" className="navbar-links">
             ДЛЯ ОПТОВИКОВ
           </a>
         </li>
@@ -73,7 +73,7 @@ function Navbar() {
             </a>
           </li>
           <li>
-            <a onClick={openNav} href="#about">
+            <a onClick={openNav} href="#optoviki">
               ДЛЯ ОПТОВИКОВ
             </a>
           </li>
