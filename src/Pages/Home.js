@@ -7,6 +7,7 @@ import BookAppointment from "../Components/BookAppointment";
 import Product from "../Components/Product";
 import Footer from "../Components/Footer";
 import AppointmentForm from "../Components/AppointmentForm";
+import Optoviki from "../Components/optoviki";
 
 
 function Home() {
@@ -19,6 +20,7 @@ function Home() {
       <AppointmentForm />
       <About />
       <BookAppointment />
+      <Optoviki />
       <Footer />
     </div>
   );
