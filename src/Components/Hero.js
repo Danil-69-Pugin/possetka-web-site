@@ -13,7 +13,7 @@ function Hero() {
   };
 
   const handleBookAppointmentClick = () => {
-    navigate("/appointment");
+    navigate("#product");
   };
 
   useEffect(() => {
@@ -45,13 +45,10 @@ function Hero() {
           >
             РАСЧИТАТЬ ПРОЕКТ
           </button>
-          <button
-              className="text-appointment-btn1"
-              type="button"
-              onClick={handleBookAppointmentClick}
-          >
-            КАТАЛОГ ПРОДУКЦИИ
-          </button>
+
+          <a href="#product"
+              className="navbar-btn"
+              type="button">КАТАЛОГ ПРОДУКЦИИ</a>
           <div className="text-stats">
             <div className="text-stats-container">
               <p>1,5К+</p>
