@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleUp } from "@fortawesome/free-solid-svg-icons";
-import { useNavigate  } from "react-router-dom";
+import {useHref} from "react-router-dom";
 import "../Styles/Hero.css";
 
 function Hero() {
-  const navigate = useNavigate();
+  const navigate = useHref();
   const [goUp, setGoUp] = useState(false);
 
   const scrollToTop = () => {
@@ -13,7 +13,7 @@ function Hero() {
   };
 
   const handleBookAppointmentClick = () => {
-    navigate("#product");
+    navigate(`product`);
   };
 
   useEffect(() => {
