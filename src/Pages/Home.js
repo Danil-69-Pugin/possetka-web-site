@@ -8,6 +8,7 @@ import Product from "../Components/Product";
 import Footer from "../Components/Footer";
 import AppointmentForm from "../Components/AppointmentForm";
 import Optoviki from "../Components/optoviki";
+import Maps from "../Components/maps";
 
 
 function Home() {
@@ -21,6 +22,7 @@ function Home() {
       <About />
       <BookAppointment />
       <Optoviki />
+      <Maps />
       <Footer />
     </div>
   );

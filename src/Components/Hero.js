@@ -1,20 +1,16 @@
 import React, { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleUp } from "@fortawesome/free-solid-svg-icons";
-import {useHref} from "react-router-dom";
+import { Link } from "react-router-dom";
 import "../Styles/Hero.css";
 
-function Hero() {
-  const navigate = useHref();
+function Hero() {;
   const [goUp, setGoUp] = useState(false);
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
-  const handleBookAppointmentClick = () => {
-    navigate(`product`);
-  };
 
   useEffect(() => {
     const onPageScroll = () => {
@@ -41,9 +37,8 @@ function Hero() {
           <button
             className="text-appointment-btn"
             type="button"
-            onClick={handleBookAppointmentClick}
           >
-            РАСЧИТАТЬ ПРОЕКТ
+            <Link to="#product">РАСЧИТАТЬ ПРОЕКТ</Link>
           </button>
 
           <a href="#product"
