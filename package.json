@@ -1,8 +1,8 @@
 {
-  "name": "rossetka-web",
-  "version": "1.0.0",
+  "name": "possetka-web-site",
+  "version": "0.1.0",
   "private": true,
-  "homepage": "#",
+  "homepage": "https://Danil-69-Pugin.github.io/RosSetka",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
