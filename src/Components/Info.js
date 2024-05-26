@@ -1,7 +1,8 @@
 import React from "react";
 import InformationCard from "./InformationCard";
-import { faHeartPulse, faTruckMedical, faTooth } from "@fortawesome/free-solid-svg-icons";
+import { faWarehouse, faTarpDroplet, faHamsa, faCashRegister, faPaintbrush } from "@fortawesome/free-solid-svg-icons";
 import "../Styles/Info.css";
+
 
 function Info() {
   return (
@@ -27,25 +28,25 @@ function Info() {
       <div className="info-cards-content">
         <InformationCard
           title="100 000 м2 Склад готовой продукции"
-          icon={faTruckMedical}
+          icon={faWarehouse}
         />
 
         <InformationCard
           title="3 500 м2 Производственная площадка"
-          icon={faHeartPulse}
+          icon={faTarpDroplet}
         />
 
         <InformationCard
           title="15 станков для изготовления сетки"
-          icon={faTooth}
+          icon={faCashRegister}
         />
         <InformationCard
             title="5 Покрасочных камер"
-            icon={faTooth}
+            icon={faPaintbrush}
         />
         <InformationCard
             title="3 Поста сварки"
-            icon={faTooth}
+            icon={faHamsa}
         />
       </div>
     </div>
