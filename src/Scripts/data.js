@@ -2,7 +2,7 @@ const data = [
     {
         url: "volier",
         name: "ВОЛЬЕР ДЛЯ ДОМАШНЕГО ПИТОМЦА",
-        img: require("../Assets/volers.jpg.jpg"),
+        img: require("../Assets/volers.jpg"),
         h1: "Что такое 3Д забор?",
         h2: "3Д забор используется при ограждении:",
         h3: "6 причин почему стоит выбрать 3Д забор",
