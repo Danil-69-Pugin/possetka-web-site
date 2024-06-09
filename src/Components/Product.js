@@ -23,39 +23,48 @@ function Product() {
 
       <div className="dt-cards-content">
         <ProdustsCard
+          url="3dzabors"
           img={dsetka}
           name="3D ЗАБОРЫ"
         />
         <ProdustsCard
+          url="ograzgdenie"
           img={timezabor}
           name="ВРЕМЕННЫЕ ОГРАЖДЕНИЯ"
         />
         <ProdustsCard
+          url="gabions"
           img={gabions}
           name="ГАБИОНЫ"
         />
         <ProdustsCard
+          url="rabitsa"
           img={setkarabitsa}
           name="СЕТКА РАБИЦА"
         />
 
         <ProdustsCard
+            url="open"
               img={vorota}
               name="ВОРОТА И КАЛИТКИ"
           />
           <ProdustsCard
+              url="prosetka"
               img={nonpodcop}
               name="ПРОТИВОПОДКОПНЫЕ ОГРАЖДЕНИЯ"
           />
           <ProdustsCard
+              url="svarograda"
               img={svarnizabors}
               name="СВАРНЫЕ ОГРАЖДЕНИЯ"
           />
           <ProdustsCard
+              url="egoza"
               img={uogoza}
               name='КОЛЮЧАЯ ПРОВОЛОКА ТИПА "ЕГОЗА"'
           />
         <ProdustsCard
+            url="volier"
             img={volers}
             name="ВОЛЬЕРЫ ДЛЯ ДОМАШНИХ ЖИВОТНЫХ"
         />

@@ -7,7 +7,7 @@ import {useNavigate} from "react-router-dom";
 function ProdustsCard(props) {
     const navigate = useNavigate();
     const clic = () => {
-        navigate(`${props.name}`);
+        navigate(`${props.url}`);
     };
 
   return (
